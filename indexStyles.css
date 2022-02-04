@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: futura_medium_condensed;
+    src: url('/fonts/futura_medium_condensed.eot')
+}
+
+@font-face {
+    font-family: futura_medium_condensed;
+    src: url('/fonts/futura_medium_condensed.ttf')
+}
+
+body {
+    background-color: #e6e7e8;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav {
+    background-color: #005895;
+}
+
+a {
+    color: white;
+    font: 400 15px futura_medium_condensed;
+    text-transform: uppercase;
+    text-decoration: none;
+}
